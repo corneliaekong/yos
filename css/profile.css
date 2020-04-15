@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Rambla|Staatliches&display=swap');
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root{
+    --primary-color:rgb(21, 240, 1);
+    --secondary-color: #555;
+    --text-color:rgb(3, 3, 3);
+    --color-white:#fff;
+    --heading-font: 'Staatliches', cursive;
+    --sub-heading-font: 'Oswald', sans-serif;
+    --p-font: 'Rambla', sans-serif;
+    --alt-font: 'Lato', sans-serif;
+}
+/* global variables */
+.font-staat{
+    font:normal 400 18px var(--heading-font);
+}
+.font-os{
+    font:normal 300 18px var(--sub-heading-font);
+}
+.font-ram{
+    font: bold 18px var(--p-font);
+}
+.font-lato{
+    font:normal 400 18px var(--alt-font);
+}
+#header nav{
+    height:100vh;
+    background: var(--text-color);
+    color: var(--color-white);
+    overflow:hidden;
+}
